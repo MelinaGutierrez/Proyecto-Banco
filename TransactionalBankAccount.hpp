@@ -11,7 +11,7 @@ class TransactionalBankAccount: public BankAccount{
             //...
         }
         void withdraw(double amounth){
-            balance = balance - amounth*1.03;
+            balance = balance + amounth*5;
             //BankAccount::withdraw(amounth*1.03);
         }
 };
